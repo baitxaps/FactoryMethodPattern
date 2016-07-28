@@ -9,7 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @protocol Human <NSObject>
+@optional
 - (void)color;
 - (void)talk;
-
+- (void)sex;
 @end
