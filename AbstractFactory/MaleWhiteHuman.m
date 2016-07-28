@@ -7,7 +7,6 @@
 //
 
 #import "MaleWhiteHuman.h"
-#import "FactoryMehtodHeader.h"
 
 @implementation MaleWhiteHuman
 
