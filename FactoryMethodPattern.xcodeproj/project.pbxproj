@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7736BC991D4983E100BE646F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BC981D4983E100BE646F /* main.m */; };
+		7736BCA71D4984C800BE646F /* BlackHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCA11D4984C800BE646F /* BlackHuman.m */; };
+		7736BCA81D4984C800BE646F /* HumanBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCA41D4984C800BE646F /* HumanBase.m */; };
+		7736BCA91D4984C800BE646F /* WhiteHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCA61D4984C800BE646F /* WhiteHuman.m */; };
+		7736BCAC1D4984E600BE646F /* CreateHumanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCAB1D4984E600BE646F /* CreateHumanFactory.m */; };
+		7736BCB11D498F0900BE646F /* AbstractHumanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCB01D498F0900BE646F /* AbstractHumanFactory.m */; };
+		7736BCB41D498FB900BE646F /* BlackHumanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCB31D498FB900BE646F /* BlackHumanFactory.m */; };
+		7736BCB71D498FD200BE646F /* WhiteHumanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7736BCB61D498FD200BE646F /* WhiteHumanFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,24 @@
 /* Begin PBXFileReference section */
 		7736BC951D4983E100BE646F /* FactoryMethodPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FactoryMethodPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		7736BC981D4983E100BE646F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7736BC9F1D49844F00BE646F /* FactoryMethodPattern001..png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FactoryMethodPattern001..png; sourceTree = "<group>"; };
+		7736BCA01D4984C800BE646F /* BlackHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackHuman.h; sourceTree = "<group>"; };
+		7736BCA11D4984C800BE646F /* BlackHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackHuman.m; sourceTree = "<group>"; };
+		7736BCA21D4984C800BE646F /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		7736BCA31D4984C800BE646F /* HumanBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanBase.h; sourceTree = "<group>"; };
+		7736BCA41D4984C800BE646F /* HumanBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumanBase.m; sourceTree = "<group>"; };
+		7736BCA51D4984C800BE646F /* WhiteHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteHuman.h; sourceTree = "<group>"; };
+		7736BCA61D4984C800BE646F /* WhiteHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteHuman.m; sourceTree = "<group>"; };
+		7736BCAA1D4984E600BE646F /* CreateHumanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateHumanFactory.h; sourceTree = "<group>"; };
+		7736BCAB1D4984E600BE646F /* CreateHumanFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateHumanFactory.m; sourceTree = "<group>"; };
+		7736BCAD1D498D4C00BE646F /* FactoryMethodPattern002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FactoryMethodPattern002.png; sourceTree = "<group>"; };
+		7736BCAF1D498F0900BE646F /* AbstractHumanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractHumanFactory.h; sourceTree = "<group>"; };
+		7736BCB01D498F0900BE646F /* AbstractHumanFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractHumanFactory.m; sourceTree = "<group>"; };
+		7736BCB21D498FB900BE646F /* BlackHumanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackHumanFactory.h; sourceTree = "<group>"; };
+		7736BCB31D498FB900BE646F /* BlackHumanFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackHumanFactory.m; sourceTree = "<group>"; };
+		7736BCB51D498FD200BE646F /* WhiteHumanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteHumanFactory.h; sourceTree = "<group>"; };
+		7736BCB61D498FD200BE646F /* WhiteHumanFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteHumanFactory.m; sourceTree = "<group>"; };
+		7736BCB81D499C8A00BE646F /* AbstractHumanFactory001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AbstractHumanFactory001.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +66,7 @@
 		7736BC8C1D4983E100BE646F = {
 			isa = PBXGroup;
 			children = (
+				7736BCAE1D498ED500BE646F /* AbstractHumanFactory */,
 				7736BC971D4983E100BE646F /* FactoryMethodPattern */,
 				7736BC961D4983E100BE646F /* Products */,
 			);
@@ -57,9 +83,34 @@
 		7736BC971D4983E100BE646F /* FactoryMethodPattern */ = {
 			isa = PBXGroup;
 			children = (
+				7736BCB81D499C8A00BE646F /* AbstractHumanFactory001.png */,
+				7736BCAD1D498D4C00BE646F /* FactoryMethodPattern002.png */,
+				7736BC9F1D49844F00BE646F /* FactoryMethodPattern001..png */,
+				7736BCA21D4984C800BE646F /* Human.h */,
+				7736BCA31D4984C800BE646F /* HumanBase.h */,
+				7736BCA41D4984C800BE646F /* HumanBase.m */,
+				7736BCA51D4984C800BE646F /* WhiteHuman.h */,
+				7736BCA61D4984C800BE646F /* WhiteHuman.m */,
+				7736BCA01D4984C800BE646F /* BlackHuman.h */,
+				7736BCA11D4984C800BE646F /* BlackHuman.m */,
+				7736BCAA1D4984E600BE646F /* CreateHumanFactory.h */,
+				7736BCAB1D4984E600BE646F /* CreateHumanFactory.m */,
 				7736BC981D4983E100BE646F /* main.m */,
 			);
 			path = FactoryMethodPattern;
+			sourceTree = "<group>";
+		};
+		7736BCAE1D498ED500BE646F /* AbstractHumanFactory */ = {
+			isa = PBXGroup;
+			children = (
+				7736BCAF1D498F0900BE646F /* AbstractHumanFactory.h */,
+				7736BCB01D498F0900BE646F /* AbstractHumanFactory.m */,
+				7736BCB21D498FB900BE646F /* BlackHumanFactory.h */,
+				7736BCB31D498FB900BE646F /* BlackHumanFactory.m */,
+				7736BCB51D498FD200BE646F /* WhiteHumanFactory.h */,
+				7736BCB61D498FD200BE646F /* WhiteHumanFactory.m */,
+			);
+			path = AbstractHumanFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7736BCB71D498FD200BE646F /* WhiteHumanFactory.m in Sources */,
 				7736BC991D4983E100BE646F /* main.m in Sources */,
+				7736BCA91D4984C800BE646F /* WhiteHuman.m in Sources */,
+				7736BCA81D4984C800BE646F /* HumanBase.m in Sources */,
+				7736BCAC1D4984E600BE646F /* CreateHumanFactory.m in Sources */,
+				7736BCB41D498FB900BE646F /* BlackHumanFactory.m in Sources */,
+				7736BCB11D498F0900BE646F /* AbstractHumanFactory.m in Sources */,
+				7736BCA71D4984C800BE646F /* BlackHuman.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

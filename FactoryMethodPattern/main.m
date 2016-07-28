@@ -7,11 +7,31 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CreateHumanFactory.h"
+#import "BlackHumanFactory.h"
+#import "WhiteHumanFactory.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        // 多工厂模式的抽象工厂类,简单的工厂模式场景
+        HumanBase *black= [CreateHumanFactory factoryWithType:FactoryTypeBlack];
+        [black color];
+        [black talk];
+        
+        HumanBase *white= [CreateHumanFactory factoryWithType:FactoryTypeWhite];
+        [white color];
+        [white talk];
+        
+    
+        // 多工厂模式的抽象工厂类,简单的工厂模式场景
+        id <Human>blackHuman= [BlackHumanFactory createHuman];
+        [blackHuman color];
+        [blackHuman talk];
+        
+        id <Human>whiteHuman= [WhiteHumanFactory createHuman];
+        [whiteHuman color];
+        [whiteHuman talk];
+        
     }
     return 0;
 }
