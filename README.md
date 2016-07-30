@@ -1,0 +1,2 @@
+FactoryMethodPattern
+抽像工厂
